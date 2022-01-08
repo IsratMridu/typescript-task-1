@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#theBody{
+    background-color:rgb(152, 158, 163);
+}
+
+img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    background-color:rgb(192, 207, 197);
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.status {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.status h2 {
+    text-align: center;
+    background-color: #212529;
+    margin: 10px 0;
+    padding: 8px;
+    color: rgb(211, 206, 206);
+
+}
+
+.empty {
+    width: 60%;
+    height: 100vh;
+    margin: 20px auto;
+}
+
+.actions{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+/* .todo {
+    margin: 5px;
+    background-color: rgb(192, 207, 197);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+} */
+
+#description{
+    resize: none;
+}
+
+.btn-dark{
+    margin: 8px;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+}
+.form-group select{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+}
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-group label{
+    font-size: 17px;
+   
+}
+
+.card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#listCount{
+    margin-top: 25px;
+}
+
+.button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}

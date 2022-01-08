@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    
+}
+
+
+#email{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#password{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-container{
+    background-color: goldenrod;
+    padding: 20px;
+    margin-top: 30px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login-button{
+    background: linear-gradient(to right, #333333, #dd1818);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
